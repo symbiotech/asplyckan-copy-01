@@ -4,6 +4,7 @@ module.exports = {
     pathPrefix: '/',
     siteMetadata: siteMetadata,
     plugins: [
+        `gatsby-plugin-netlify-cms`,
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         `gatsby-transformer-remark`,
